@@ -13,9 +13,19 @@
           max-width: 800px;
           margin: auto;
       }
-      img {
+      .gslogo {
           float: left;
           margin: 5px;
+      }
+      .namepic {
+          width: 200px;
+          display: block;
+          margin-left: 20px;
+          margin-right: 20px;
+      }
+      table {
+          margin-left: auto;
+          margin-right: auto;
       }
       h1, h2 {
           color: #00AE58;
@@ -27,15 +37,25 @@
 <body>
     <div class="main">
         <h1>Girl Scout Troop 10767 Cookie Sales</h1>
-        <img src="img/gs-logo.png">        
+        <img class="gslogo" src="img/gs-logo.png">        
         <p>Thank you for supporting your local Girl Scout Troop 10767 (from Double Eagle Elementary School) through our cookie sales!  Proceeds from cookie sales go towards supporting local troop activities.</p>
-        <p>Each girl has her own personalized cookie sales website.  If you recieved a flyer at your door, the girl's name should be marked on the back of the card.  Please proceed by cliking on the girl's name below to proceed to her personalized size.</p>
+        <p>Each girl has her own personalized cookie sales website.  If you received a flyer at your door, the girl's name should be marked on the back of the card.  Please proceed by clicking on the girl's name below to proceed to her personalized size.</p>
         <p>When cookies arive, the girl will deliver to your doorstep!</p>
-        <h2>Troop Members</h2>
-        <ul>
-            <li>Aurora</li>
-            <li>Natalie</li>
-        </ul>
+        <h2>Troop Members:</h2>
+        <table>
+            <tr>
+                <td><a href="https://www.nmgirlscouts.org/en/cookies/find-cookies.html"><img class="namepic" src="img/aurora.png"></a></td>
+                <td><a href="https://www.nmgirlscouts.org/en/cookies/find-cookies.html"><img class="namepic" src="img/natalie.png"></a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.nmgirlscouts.org/en/cookies/find-cookies.html"><img class="namepic" src="img/mabry.png"></a></td>
+                <td><a href="https://www.nmgirlscouts.org/en/cookies/find-cookies.html"><img class="namepic" src="img/madison.png"></a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.nmgirlscouts.org/en/cookies/find-cookies.html"><img class="namepic" src="img/mia.png"></a></td>
+                <td><a href="https://www.nmgirlscouts.org/en/cookies/find-cookies.html"><img class="namepic" src="img/audrey.png"></a></td>
+            </tr>
+        </table>
     </div>
 </body>
 </html>
